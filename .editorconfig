@@ -1,0 +1,25 @@
+# http://editorconfig.org
+# 添加协作规范，让项目下所有文件统一代码风格
+
+# 是否是顶级配置文件，设置为 true 的时候才会停止搜索.editorconfig 文件
+root = true
+
+[*] # 匹配除/之外的任意字符
+# 编码格式 <“latin” | “utf-8” | “utf-8-bom” | “utf-16be” | “utf-16le”>
+charset = utf-8
+# 换行符类型 <“tab” | “space”>
+end_of_line = lf
+# 缩进大小
+indent_size = 2
+# 缩进方式  <“tab” | “space”>
+indent_style = space
+# 是否让文件以空行结束
+insert_final_newline = true
+# 最大行宽。
+max_line_length = 80
+# 是否让文件以空行结束
+trim_trailing_whitespace = true
+
+[*.md] # 匹配所有的markdown
+max_line_length = 0
+trim_trailing_whitespace = false
